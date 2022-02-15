@@ -3,12 +3,10 @@ body{
     margin: 0%;
     margin-bottom: 0%;
 }
-p{
-    line-height: 30px;
-    font-style: oblique;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.767);
+.contain-flexible .half-width .heading-position p{
+    margin-bottom: 80px;
 }
+
 h1{
     font-size: 40px;
     color: rgba(0, 0, 0, 0.767);
@@ -69,6 +67,11 @@ h3{
         padding: 15px 25px;
         border-radius: 25px;
         
+    }
+
+    .contain-flexible .half-width p
+    {
+        margin-bottom: 90px;
     }
 
     .added-back{
